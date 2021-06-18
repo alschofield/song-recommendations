@@ -1,10 +1,11 @@
 module.exports = {
   siteMetadata: {
-    title: "app1",
+    title: "song-recommendation",
   },
   plugins: [
     "gatsby-plugin-sitemap",
     "gatsby-plugin-mdx",
+    "gatsby-plugin-layout",
     {
       resolve: "gatsby-source-filesystem",
       options: {

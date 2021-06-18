@@ -1,0 +1,99 @@
+{
+  "home": {
+    "container": {
+      "display": "flex",
+      "flexDirection": "column",
+      "justifyContent": "center",
+      "height": "calc(100vh - 115px)",
+      "paddingTop": "40px",
+      "paddingLeft": "15px",
+      "paddingRight": "15px",
+      "paddingBottom": "15px",
+      "backgroundColor": "#F8F4EC"
+    },
+    "search": {
+      "container": {
+        "display": "flex",
+        "flexDirection": "column",
+        "justifyContent": "center",
+        "height": "40%"
+      },
+      "header": {
+        "textAlign": "center",
+        "color": "#111111"
+      },
+      "input": {
+        "display": "block",
+        "height": "45px",
+        "width": "60%",
+        "marginTop": "50px",
+        "marginBottom": "0",
+        "marginLeft": "auto",
+        "marginRight": "auto",
+        "paddingLeft": "5px",
+        "paddingRight": "5px",
+        "color": "#111111",
+        "backgroundColor": "#F8F4EC",
+        "fontSize": "20px",
+        "border": "4px solid #333333",
+        "outline": "none"
+      }
+    },
+    "cards": {
+      "rail": {
+        "width": "100%",
+        "height": "60%",
+        "overflow": "hidden"
+      },
+      "container": {
+        "display": "flex",
+        "justifyContent": "center",
+        "alignItems": "center",
+        "width": "calc(100% - 30px)",
+        "paddingTop": "15px",
+        "paddingRight": "15px",
+        "paddingBottom": "15px",
+        "paddingLeft": "15px",
+        "flexWrap": "wrap"
+      },
+      "card": {
+        "container": {
+          "width": "200px",
+          "height": "200px",
+          "margin": "5px"
+        },
+        "header": {
+
+        },
+        "body": {
+          "position": "relative",
+          "height": "100%",
+          "width": "100%"
+        },
+        "footer": {
+
+        }
+      }
+    }
+  },
+  "footer": {
+    "container": {
+      "display": "flex",
+      "height": "60px",
+      "backgroundColor": "#E7E6DD",
+      "justifyContent": "center",
+      "alignItems": "center",
+      "flexDirection": "column"
+    },
+    "text": {
+      "textAlign": "center",
+      "display": "block",
+      "color": "#111111"
+    },
+    "spotify": {
+      "position": "absolute",
+      "right": "25px",
+      "width": "100px"
+    }
+  }
+}

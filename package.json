@@ -1,8 +1,8 @@
 {
-  "name": "app1",
+  "name": "song-recommendation",
   "version": "1.0.0",
   "private": true,
-  "description": "app1",
+  "description": "song recommendation",
   "author": "alschofield93",
   "keywords": [
     "gatsby"
@@ -17,11 +17,18 @@
   "dependencies": {
     "@mdx-js/mdx": "1.6.22",
     "@mdx-js/react": "1.6.22",
+    "@reduxjs/toolkit": "1.6.0",
     "gatsby": "^3.6.2",
+    "gatsby-plugin-layout": "2.7.1",
     "gatsby-plugin-mdx": "2.7.1",
     "gatsby-plugin-sitemap": "4.3.1",
     "gatsby-source-filesystem": "3.7.1",
+    "lodash.merge": "4.6.2",
     "react": "^17.0.1",
-    "react-dom": "^17.0.1"
+    "react-dom": "^17.0.1",
+    "react-global-configuration": "1.4.1",
+    "schofield-common-components": "2.0.8",
+    "schofield-main-components": "1.1.13",
+    "schofield-themes": "1.2.8"
   }
 }
