@@ -1,8 +1,8 @@
 import React, { useCallback, useState, useEffect } from 'react';
-import config from '../../settings';
-import client from '../../api/client';
+import config from '../settings';
+import client from '../api/client';
 import { Container, Header, Input, Image } from 'schofield-common-components';
-import { Card, CardHeader, CardBody, CardFooter } from '../../app-components';
+import { Card, CardHeader, CardBody, CardFooter } from '../app-components';
 import { withTheme } from 'schofield-themes';
 
 const BASE_URL = config.get('API_BASE_URL');
