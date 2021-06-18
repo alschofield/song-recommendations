@@ -3,7 +3,6 @@ module.exports = {
     title: "song-recommendation",
   },
   plugins: [
-    "gatsby-plugin-sitemap",
     "gatsby-plugin-mdx",
     "gatsby-plugin-layout",
     {
