@@ -14,8 +14,6 @@ const Home = ({ theme }) => {
     songs: []
   })
 
-  console.log(theme)
-
   const getSongs = useCallback(async () => {
     const response = await client.post(`${BASE_URL}spotify`, { query: search.value, page: search.page })
     updateSearch({ ...search, songs: [ ...search.songs, ...response.data.tracks.items ] })
